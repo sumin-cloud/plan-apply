@@ -1,0 +1,480 @@
+{
+  "plans": [
+    {
+      "id": 1,
+      "name": "라이트 5G",
+      "network": "5G",
+      "monthly": 39000,
+      "data": "6GB",
+      "call": "무제한",
+      "tag": "가성비"
+    },
+    {
+      "id": 2,
+      "name": "스탠다드 5G",
+      "network": "5G",
+      "monthly": 59000,
+      "data": "무제한",
+      "call": "무제한",
+      "tag": "인기"
+    },
+    {
+      "id": 3,
+      "name": "프리미엄 5G",
+      "network": "5G",
+      "monthly": 89000,
+      "data": "무제한",
+      "call": "무제한",
+      "tag": "프리미엄"
+    },
+    {
+      "id": 4,
+      "name": "LTE 슬림",
+      "network": "LTE",
+      "monthly": 29000,
+      "data": "3GB",
+      "call": "무제한",
+      "tag": "가성비"
+    },
+    {
+      "id": 5,
+      "name": "LTE 무제한",
+      "network": "LTE",
+      "monthly": 49000,
+      "data": "무제한",
+      "call": "무제한",
+      "tag": ""
+    }
+  ],
+  "addons": [
+    {
+      "id": 1,
+      "name": "단말 보험",
+      "desc": "단말 보험 설명",
+      "monthly": 5000
+    },
+    {
+      "id": 2,
+      "name": "영상 스트리밍 패스",
+      "desc": "영상 스트리밍 패스 설명",
+      "monthly": 9900
+    },
+    {
+      "id": 3,
+      "name": "데이터 쉐어링",
+      "desc": "데이터 쉐어링 설명",
+      "monthly": 3000
+    }
+  ],
+  "applications": [
+    {
+      "planId": "1",
+      "values": {
+        "name": "123",
+        "phone": "010-1234-5678",
+        "birth": "1978-11-11",
+        "email": "123@gmail.com",
+        "openType": "2",
+        "prevCarrier": "A",
+        "contract": "12"
+      },
+      "agreements": [
+        {
+          "termId": 1,
+          "agree": true
+        },
+        {
+          "termId": 2,
+          "agree": true
+        },
+        {
+          "termId": 3,
+          "agree": true
+        },
+        {
+          "termId": 4,
+          "agree": true
+        }
+      ],
+      "status": "취소",
+      "createdAt": "2026-11-26T04:06:42.774Z",
+      "totAmount": 74100,
+      "lines": [],
+      "adons": [],
+      "id": 1
+    },
+    {
+      "planId": "2",
+      "values": {
+        "name": "444",
+        "phone": "010-2222-2222",
+        "birth": "1978-11-11",
+        "email": "123@fff.co.kr",
+        "openType": "2",
+        "prevCarrier": "B",
+        "contract": "12"
+      },
+      "agreements": [
+        {
+          "termId": 1,
+          "agree": true
+        },
+        {
+          "termId": 2,
+          "agree": true
+        },
+        {
+          "termId": 3,
+          "agree": true
+        },
+        {
+          "termId": 4,
+          "agree": false
+        }
+      ],
+      "status": "취소",
+      "createdAt": "2026-11-25T00:29:41.786Z",
+      "totAmount": 74100,
+      "lines": [],
+      "adons": [],
+      "id": 2
+    },
+    {
+      "planId": "2",
+      "values": {
+        "name": "444",
+        "phone": "010-2222-2222",
+        "birth": "1978-11-11",
+        "email": "123@fff.co.kr",
+        "openType": "2",
+        "prevCarrier": "B",
+        "contract": "12"
+      },
+      "agreements": [
+        {
+          "termId": 1,
+          "agree": true
+        },
+        {
+          "termId": 2,
+          "agree": true
+        },
+        {
+          "termId": 3,
+          "agree": true
+        },
+        {
+          "termId": 4,
+          "agree": false
+        }
+      ],
+      "status": "접수",
+      "createdAt": "2026-11-25T00:29:46.188Z",
+      "totAmount": 74100,
+      "lines": [],
+      "adons": [],
+      "id": 3
+    },
+    {
+      "planId": "2",
+      "values": {
+        "name": "444",
+        "phone": "010-2222-2222",
+        "birth": "1978-11-11",
+        "email": "123@fff.co.kr",
+        "openType": "2",
+        "prevCarrier": "B",
+        "contract": "12"
+      },
+      "agreements": [
+        {
+          "termId": 1,
+          "agree": true
+        },
+        {
+          "termId": 2,
+          "agree": true
+        },
+        {
+          "termId": 3,
+          "agree": true
+        },
+        {
+          "termId": 4,
+          "agree": false
+        }
+      ],
+      "status": "접수",
+      "createdAt": "2026-11-25T00:38:24.479Z",
+      "totAmount": 74100,
+      "lines": [],
+      "adons": [],
+      "id": 4
+    },
+    {
+      "planId": "4",
+      "values": {
+        "name": "3333",
+        "phone": "010-2222-2222",
+        "birth": "1978-11-11",
+        "email": "123@gmail.com",
+        "openType": "2",
+        "prevCarrier": "B",
+        "contract": "24"
+      },
+      "agreements": [
+        {
+          "termId": 1,
+          "agree": true
+        },
+        {
+          "termId": 2,
+          "agree": true
+        },
+        {
+          "termId": 3,
+          "agree": true
+        },
+        {
+          "termId": 4,
+          "agree": true
+        }
+      ],
+      "status": "접수",
+      "createdAt": "2026-11-25T00:42:33.632Z",
+      "totAmount": 74100,
+      "lines": [],
+      "adons": [],
+      "id": 5
+    },
+    {
+      "planId": "1",
+      "values": {
+        "name": "aaa",
+        "phone": "010-2222-2222",
+        "birth": "1978-11-11",
+        "email": "123@fff.co.kr",
+        "openType": "2",
+        "prevCarrier": "B",
+        "contract": "24"
+      },
+      "agreements": [
+        {
+          "termId": 1,
+          "agree": true
+        },
+        {
+          "termId": 2,
+          "agree": true
+        },
+        {
+          "termId": 3,
+          "agree": true
+        },
+        {
+          "termId": 4,
+          "agree": true
+        }
+      ],
+      "status": "접수",
+      "createdAt": "2026-11-25T04:20:56.423Z",
+      "totAmount": 74100,
+      "lines": [],
+      "adons": [],
+      "id": 6
+    },
+    {
+      "planId": 4,
+      "values": {
+        "name": "222",
+        "phone": "010-1234-5678",
+        "birth": "1978-11-11",
+        "email": "123@gmail.com",
+        "openType": "2",
+        "prevCarrier": "A",
+        "contract": "24"
+      },
+      "agreements": [
+        {
+          "termId": 1,
+          "agree": true
+        },
+        {
+          "termId": 2,
+          "agree": true
+        },
+        {
+          "termId": 3,
+          "agree": true
+        },
+        {
+          "termId": 4,
+          "agree": false
+        }
+      ],
+      "status": "접수",
+      "createdAt": "2026-11-26T04:06:04.352Z",
+      "totAmount": 99000,
+      "lines": [
+        {
+          "name": "123",
+          "phone": "010-1111-1111"
+        }
+      ],
+      "adons": [
+        1,
+        2
+      ],
+      "id": 7
+    },
+    {
+      "planId": 1,
+      "values": {
+        "name": "3333",
+        "phone": "010-1234-5678",
+        "birth": "1978-11-11",
+        "email": "123@gmail.com",
+        "openType": "1",
+        "prevCarrier": "A",
+        "contract": "24"
+      },
+      "agreements": [
+        {
+          "termId": 1,
+          "agree": true
+        },
+        {
+          "termId": 2,
+          "agree": true
+        },
+        {
+          "termId": 3,
+          "agree": true
+        },
+        {
+          "termId": 4,
+          "agree": true
+        }
+      ],
+      "status": "접수",
+      "createdAt": "2026-11-26T04:06:42.774Z",
+      "totAmount": 74100,
+      "lines": [],
+      "adons": [],
+      "id": 8
+    },
+    {
+      "planId": 4,
+      "values": {
+        "name": "123",
+        "phone": "010-1234-5678",
+        "birth": "1978-11-11",
+        "email": "123@gmail.com",
+        "openType": "1",
+        "prevCarrier": "A",
+        "contract": "12"
+      },
+      "agreements": [
+        {
+          "termId": 1,
+          "agree": true
+        },
+        {
+          "termId": 2,
+          "agree": true
+        },
+        {
+          "termId": 3,
+          "agree": true
+        },
+        {
+          "termId": 4,
+          "agree": true
+        }
+      ],
+      "status": "접수",
+      "createdAt": "2026-11-26T04:17:24.749Z",
+      "totAmount": 37450,
+      "lines": [],
+      "addonIds": [
+        2
+      ],
+      "id": 9
+    },
+    {
+      "planId": 1,
+      "values": {
+        "name": "132",
+        "phone": "010-1234-5678",
+        "birth": "1978-11-11",
+        "email": "123@gmail.com",
+        "openType": "2",
+        "prevCarrier": "A",
+        "contract": "24"
+      },
+      "agreements": [
+        {
+          "termId": 1,
+          "agree": true
+        },
+        {
+          "termId": 2,
+          "agree": true
+        },
+        {
+          "termId": 3,
+          "agree": true
+        },
+        {
+          "termId": 4,
+          "agree": true
+        }
+      ],
+      "status": "접수",
+      "createdAt": "2026-11-26T05:59:03.640Z",
+      "totAmount": 131000,
+      "lines": [
+        {
+          "name": "1111",
+          "phone": "010-4444-4444"
+        },
+        {
+          "name": "2222",
+          "phone": "010-4446-4444"
+        }
+      ],
+      "addonIds": [
+        1,
+        2,
+        3
+      ],
+      "id": 10
+    }
+  ],
+  "terms": [
+    {
+      "id": 1,
+      "title": "서비스 이용약관",
+      "required": true,
+      "content": "이용약관 본문 (가상 문구)"
+    },
+    {
+      "id": 2,
+      "title": "개인정보 수집·이용 동의",
+      "required": true,
+      "content": "개인정보 수집 안내 (가상 문구)"
+    },
+    {
+      "id": 3,
+      "title": "제3자 정보 제공 동의",
+      "required": true,
+      "content": "제3자 제공 안내 (가상 문구)"
+    },
+    {
+      "id": 4,
+      "title": "마케팅 정보 수신 동의",
+      "required": false,
+      "content": "마케팅 수신 안내 (가상 문구)"
+    }
+  ]
+}
